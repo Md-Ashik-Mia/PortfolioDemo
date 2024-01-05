@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   list-style: none;
   text-decoration: none;
 }
@@ -20,16 +20,39 @@ header {
 }
 .possible {
 
+    display: flex;
+    flex-direction: column;
+    padding-left: 635px;
+    padding-top: 210px;
   /* padding: 210px 0px 0px 621px; */
   
-  text-align: right;
+  /* text-align: right; */
 }
 .possibleHeader {
-  width: 525px;
   text-align: right;
   color: #151414;
   text-align: right;
   font-family: Work Sans;
   font-size: 65px;
   font-weight: 700;
+}
+.possibleParagraph{
+color:  #444343;
+text-align: right;
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+
+.possibleButton{
+margin-left: 333px;
+width: 160px;
+height: 64px;
+border-radius: 5px;
+background-color: #F15B22;
+color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
 }
