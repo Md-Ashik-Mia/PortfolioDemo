@@ -4,54 +4,105 @@
   list-style: none;
   text-decoration: none;
 }
-
+body {
+  background-color: #fff;
+}
 /* Header Start From Here  */
 header {
   height: 809px;
   background-image: url("../images/banner/banner2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top left;
 }
 .container {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
+  /* background-color: aqua; */
 }
 .possible {
-
-    display: flex;
-    flex-direction: column;
-    padding-left: 635px;
-    padding-top: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
   /* padding: 210px 0px 0px 621px; */
-  
+
   /* text-align: right; */
 }
 .possibleHeader {
-  text-align: right;
+  max-width: 525px;
   color: #151414;
-  text-align: right;
   font-family: Work Sans;
   font-size: 65px;
   font-weight: 700;
+  text-align: right;
+  margin-top: 210px;
+  margin-bottom: 24px;
 }
-.possibleParagraph{
-color:  #444343;
-text-align: right;
-font-family: Work Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px; 
+.possibleParagraph {
+  margin-bottom: 32px;
+  text-align: right;
+  max-width: 494px;
+  color: #444343;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
 }
 
-.possibleButton{
-margin-left: 343px;
-width: 160px;
-height: 64px;
-border-radius: 5px;
-background-color: #F15B22;
-color: #FFF;
-font-family: Work Sans;
-font-size: 20px;
-font-weight: 600;
+.possibleButton {
+  padding: 25px;
+  width: 180px;
+  height: 70px;
+  border-radius: 5px;
+  background-color: #f15b22;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* secondSection Start Here  */
+.secondSection {
+  margin-top: 139px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 87px;
+}
+.secondSectionRight > h2 {
+  max-width: 288px;
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.secondSectionRight > p {
+  max-width: 416px;
+  color: #444343;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.secondSectionRight ul {
+  margin-top: 16px;
+}
+.secondSectionRight ul li {
+  margin-bottom: 10px;
+  color: #444343;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.secondSectionRight ul li::before {
+  content: "✓";
+  max-width: 24px;
+  max-height: 24px;
+  color: #16d887;
+  margin-right: 10px;
 }
