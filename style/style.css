@@ -155,3 +155,42 @@ font-weight: 500;
 
 /* thirdSection Ends Here  */
 
+
+ /* FourthSection Starts Here  */
+
+ .fourthSection{
+  background-image: url('../images/watch.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin-bottom: 130px;
+ }
+
+ .fourthSectionSecondImage{
+  background-image: url('../images/gradient2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 64px;
+  height: 300px;
+ }
+
+ .fourthSectionHeaderOne{
+padding-top: 60px;
+padding-bottom: 24px;
+color: #FFF;
+font-family: Work Sans;
+font-size: 40px;
+font-weight: 700;
+width: 459px;
+ }
+.fourthSectionButton{
+background-color: #FFFFFF;
+color: #F15B22;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+padding: 20px 36px;
+border: none;
+
+}
