@@ -108,3 +108,50 @@ header {
 }
 
 /* secondSection Complete Here  */
+
+/* thirdSection Starts Here  */
+.thirdSection{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+.thirdSectionHeaderOne{
+text-align: center;
+color:#151414;
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.thirdSectionSkills{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.thirdSectionSkillImage{
+margin-top: 50px;
+ margin-bottom: 24px;
+max-width:93px;
+max-height: 93px;
+}
+
+.thirdSectionSkillHeaderThree{
+  margin-bottom: 16px;
+  color:  #151414;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 30px;
+  font-weight: 700;
+
+}
+.thirdSectionSkillParagraph{
+color:  #737272;
+text-align: center;
+font-family: Work Sans;
+font-size: 25px;
+font-weight: 500;
+}
+
+/* thirdSection Ends Here  */
+
