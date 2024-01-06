@@ -16,7 +16,6 @@ header {
 .container {
   width: 1140px;
   margin: 0 auto;
-  background-color: lightpink;
 }
 .possible {
 
@@ -46,7 +45,7 @@ line-height: 26px;
 }
 
 .possibleButton{
-margin-left: 333px;
+margin-left: 343px;
 width: 160px;
 height: 64px;
 border-radius: 5px;
